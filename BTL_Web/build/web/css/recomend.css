@@ -1,0 +1,150 @@
+
+.recomend{
+    
+   
+    height: auto;
+    
+    
+}
+.recomend .trend{
+    
+    margin: 2%;
+    width: 96%;
+    height: auto;
+/*    border: 1px solid #2980b9;*/
+    margin-top: 60px;
+}
+.recomend .trend ul{
+    margin: 0px;
+    padding: 0px;
+}
+.recomend .trend ul li{
+    
+    list-style-type: none;
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #bdc3c7;
+    
+}
+.recomend .trend ul .title h4{
+    padding: 0xp;
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Helvetica;
+    padding: 10px;
+}
+.recomend .trend ul li a{
+    
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Helvetica;
+    color: #14171a;
+    display: block;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.recomend .trend ul li:hover{
+    background-color: #ecf0f1;
+}
+.recomend .trend ul .more_tag a{
+    color: #2ecc71;
+}
+
+.recomend .friend{
+    margin: 2%;
+    width: 96%;
+    height: auto;
+/*    border: 1px solid #2980b9;*/
+    margin-top: 15px;
+}
+
+.recomend .friend ul{
+    margin: 0px;
+    padding: 0px;
+}
+.recomend .friend  ul li{
+    
+    list-style-type: none;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #bdc3c7;
+    
+}
+.recomend .friend  ul li h3{
+    
+    padding: 0xp;
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Helvetica;
+    padding: 15px;
+    padding-left: 10px;
+}
+
+.recomend .friend  ul li span{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.recomend .friend  ul li span span img{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+.recomend .friend  ul li span span{
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 50px;
+}
+.recomend .friend  ul li span a{
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Helvetica;
+    padding-top: 18px;
+    
+    color: #34495e;
+    text-decoration: none;
+}
+.recomend .friend  ul li span a:hover{
+    text-decoration: underline;
+    
+}
+.recomend .friend  ul li span button{
+    
+    width: 100px;
+    height: 30px;
+    border: 2px solid #27ae60;
+    border-radius: 30px;
+    background-color: #ffff;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Helvetica;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: auto;
+}
+.recomend .friend  ul li span button:hover{
+    background-color: #7bed9f;
+}
+.recomend .friend  ul .more_tag a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Helvetica;
+    color: #27ae60;
+    display: block;
+    padding-top: 17px;
+    padding-left: 10px;
+    
+}
+.recomend .friend  ul .more_tag:hover{
+  background-color: #ecf0f1;
+}

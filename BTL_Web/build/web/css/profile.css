@@ -1,0 +1,523 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica;
+}
+
+.profie {
+    border: 1px solid #bdc3c7;
+    border-top: none;
+    width: 605px;
+    padding: 0px;
+    transform: translate(376px, 60px);
+    /*    position: relative;*/
+    margin: 0;
+    display: block;
+    /* chỉnh block vào giữa*/
+    /*        display: none;*/
+    margin-bottom: 15px;
+}
+
+
+
+/*---------------avatar&cover---------------*/
+
+.ava_cover {
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    height: 200px;
+    width: 100%;
+    border: none;
+}
+
+.ava_cover .cover img {
+    height: 230px;
+    width: 100%;
+    /*    display: flex;*/
+}
+
+.ava {
+
+    margin-left: 20px;
+    margin-top: -85px;
+}
+
+/*
+.u_ava input {
+        list-style-type: none;
+    color: #27ae60;
+    display: flex;
+
+}
+*/
+
+.u_ava img {
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    padding: 5px;
+    background: #fff;
+    /*    cursor: pointer;*/
+
+}
+
+.ava #nick_name {
+    /*margin-left: 15px;*/
+}
+
+/*.ava .u_ava #file {
+    display: none;
+}*/
+
+.ava .u_ava #change_avat {
+    transform: translate(-75px, 117px);
+    position: absolute;
+
+}
+
+.ava_cover .cover #change_cover {
+     position: absolute;
+    transform: translate(-19px, 214px);
+
+}
+
+/*.ava_cover .cover label {
+    position: absolute;
+    transform: translate(-19px, 214px);
+
+
+}*/
+
+/*----------content--------------*/
+
+.content {
+    width: 100%;
+    margin-top: 150px;
+    padding: 0px;
+    overflow: hidden;
+    color: #1E272E;
+
+
+
+}
+
+.profile_tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    border-bottom: 1px solid #bdc3c7;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 16px;
+    width: 25%;
+    font-weight: bold;
+    color: #27ae60;
+}
+
+.profile_tab button:hover {
+    background-color: #bdc3c7;
+    color: #27ae60;
+}
+
+/* đổi màu nền cho tab đang được hiển thị nội dung */
+.profile_tab button.active {
+    border-bottom: 2px solid #27ae60;
+    background-color: #fff;
+    color: #636e72;
+}
+
+.tabcontent {
+    display: none;
+    padding: 50px 0px 10px 0px;
+    /*    border: 1px solid #ccc;*/
+    border-top: none;
+    font-size: 15px;
+
+}
+
+.tabcontent .follow_tab button {
+    width: 50%;
+    height: 30px;
+    float: left;
+    cursor: pointer;
+    border: none;
+    color: #27ae60;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+.tabcontent .follow_tab button:hover {
+
+    background-color: #BDC3C7;
+}
+
+.tabcontent .follow_tab button.active {
+    border-bottom: 2px solid #27ae60;
+}
+
+.tabcontent .tab_follow {
+
+    /*    display: none;*/
+    margin-top: 20px;
+}
+
+.content #Album img {
+    width: 147px;
+    height: 147px;
+
+}
+
+/*---------Post tab-----------*/
+
+.tab_c {
+
+    /*    width: 40%;*/
+    height: auto;
+    /*    border: 1px solid red;*/
+    /*    transform: translate(50%, 0);*/
+
+}
+
+.tab_c .list_tus {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.tab_c .list_tus li {
+    /*    border: 1px solid #bdc3c7;*/
+    width: 96%;
+    height: auto;
+    margin: 2%;
+    margin-top: 5%;
+    list-style-type: none;
+}
+
+.tab_c .list_tus .tus1 .container_tus {
+
+    width: 96%;
+    height: 95%;
+    margin: 2%;
+    /*    border: 1px solid aqua;*/
+    display: block;
+}
+
+.tab_c .list_tus .tus1 .container_tus .header_tus {
+
+    width: 100%;
+    height: 50px;
+    /*    border: 1px solid red;*/
+    display: block;
+
+}
+
+.tab_c .list_tus .tus1 .container_tus .avt {
+    float: left;
+    height: 50px;
+    width: 50px;
+}
+
+.tab_c .list_tus .tus1 .container_tus .img {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+
+}
+
+.tab_c .list_tus .tus1 .container_tus h4 {
+
+    width: 250px;
+    padding: 0px;
+    margin: 0px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 15px;
+    padding-top: 18px;
+    font-family: Helvetica;
+    display: flex;
+}
+
+.tab_c .list_tus .tus1 .container_tus h4 button {
+    margin-left: 15px;
+    width: 90px;
+    height: 20px;
+    position: relative;
+    transform: translate(0px, -3px);
+    background-color: #fff;
+    font-size: 13px;
+    font-family: Helvetica;
+    font-weight: 700;
+    color: #27ae60;
+    border: 1px solid #2980b9;
+}
+
+.tab_c .list_tus .tus1 .container_tus h4 button:hover {
+    background-color: #27ae60;
+    color: aliceblue;
+
+}
+
+.tab_c .list_tus .tus1 .container_tus h5 {
+    margin: 0px;
+    font-size: 15px;
+    font-family: Helvetica;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.tab_c .list_tus .tus1 .container_tus .main_tus {
+    width: 100%;
+    /*    height: 350px;*/
+    display: block;
+}
+
+.tab_c .list_tus .tus1 .container_tus .main_tus img {
+
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.tab_c .list_tus .tus1 .container_tus .comment {
+
+    width: 100%;
+    height: 50px;
+    /*    border: 1px solid red;*/
+    display: flex;
+}
+
+.tab_c .list_tus .tus1 .container_tus .comment .funtion {
+    width: 33.33%;
+    height: 50px;
+    display: flex;
+}
+
+.tab_c .list_tus .tus1 .container_tus .comment .funtion button {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Helvetica;
+    font-weight: 700;
+    background-color: #ffff;
+    border: none;
+    display: flex;
+    padding-left: 30%;
+    border-bottom: 1px solid #bdc3c7;
+}
+
+button:focus {
+    outline: none;
+}
+
+.tab_c .list_tus .tus1 .container_tus .comment .funtion i {
+    font-size: 25px;
+    padding-top: 2px;
+    position: relative;
+    color: #2c3e50;
+}
+
+.tab_c .list_tus .tus1 .container_tus .comment .funtion span {
+    display: block;
+    padding-left: 15px;
+}
+
+.tab_c .list_tus .tus1 .container_tus .comment .funtion button span {
+    font-size: 15px;
+    padding-top: 8px;
+}
+
+
+
+
+/*-------follow tab-------------*/
+
+.tab_follow {
+    /*    display: none;*/
+}
+
+/*-------intro tab-------*/
+
+.quote {
+    margin-top: 10px;
+    padding: 0;
+}
+
+.quote h3 {
+    margin: 0;
+    color: #27ae60;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Helvetica;
+}
+
+.quote p {
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 0;
+    text-align: center;
+    font-size: 17px;
+    color: #1E272E;
+    font-weight: 700;
+
+}
+
+
+.infor {
+   padding: 10px;
+    margin: 0;
+    margin-top: 35px;
+    font-size: 15px;
+    color: #1E272E;
+    margin-left: 15px;
+
+}
+
+.infor p {
+    text-align: left;
+    margin-top: 6px;
+}
+
+.input_db{
+    font-weight: 600;
+}
+
+
+.infor .edit {
+    /*    transform: translate(200%, 0%);*/
+    margin-top: 40px;
+    margin-left: 40%;
+    background-color: #27ae60;
+    border: none;
+    width: 20%;
+    height: 30px;
+    border-radius: 34px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+
+
+}
+
+.infor .edit a {
+    transform: translate(-15px, 5px);
+    position: absolute;
+    text-decoration: none;
+    color: white;
+}
+
+/*
+.infor .popup_edit :hover {
+    not work ???
+    background-color: #dfe6e9;
+    color: #dfe6e9;
+}
+*/
+
+
+.infor #follow_number img {
+    width: 15px;
+    height: 15px;
+}
+
+
+/*-----------Album Tab---------------*/
+
+.tabcontent .Album_tab button {
+    width: 50%;
+    height: 30px;
+    float: left;
+    cursor: pointer;
+    border: none;
+    color: #27ae60;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+.tabcontent .Album_tab button:hover {
+
+    background-color: #BDC3C7;
+}
+
+.tabcontent .Album_tab button.active {
+    border-bottom: 2px solid #27ae60;
+}
+
+
+.tabcontent .tab_album img {
+
+    margin-top: 3px;
+
+}
+
+/*----------Follow Tab--------*/
+.tab_follow .header_tus .avt img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.tab_follow .header_tus {
+
+    width: 90%;
+    height: 50px;
+    /*    border: 1px solid red;*/
+    display: block;
+    /*    margin-top: 5px;*/
+    padding-top: 30px;
+    padding-left: 50px;
+    /*    float: left;*/
+
+}
+
+.tab_follow .header_tus h4 {
+    padding-left: 70px;
+}
+
+.tab_follow .avt {
+    float: left;
+    height: 50px;
+    width: 50px;
+}
+
+.tab_follow .header_tus #following_sta {
+    margin-left: 15px;
+    width: 90px;
+    height: 20px;
+    position: relative;
+    transform: translate(300px, -14px);
+    background-color: #fff;
+    font-size: 13px;
+    font-family: Helvetica;
+    font-weight: 700;
+    color: #27ae60;
+    border: 1px solid #2980b9;
+}
+
+
+.tab_follow .header_tus .page_guest {
+    height: 25px;
+    width: auto;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    transform: translate(0px, 10px);
+}
+
+
+.tab_follow .header_tus #following_sta:hover {
+    background-color: #27ae60;
+    color: aliceblue;
+
+}
+
+

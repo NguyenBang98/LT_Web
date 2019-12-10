@@ -1,0 +1,201 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+.container_header{
+    margin: 0px;
+    padding: 0px;
+    height: 40px;  
+    border-bottom: solid 1px #bdc3c7;
+}
+.container_header .container1{
+    width: 40%;
+    transform: translate(70%,0%);
+}
+.container_header .container1 img{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+.container_header .container1 .logo{
+    float: left;
+}
+.container_header .container1 .title{
+    font-size: 16px;
+    padding-top: 2px;
+    color: #66757f;
+    font-family: Helvetica;
+    line-height: 40px;
+    font-weight: 400;
+}
+.container{
+	width: 55%;
+	height: auto;
+	transform: translate(50%,0%);
+}
+.container .d1{
+	display: flex;
+	margin-bottom: 20px;
+}
+.container .title{
+	margin-top: 30px;
+}
+.container .title h1{
+	padding: 0px;
+	margin : 0px;
+	padding-top: 10px;
+	padding-bottom: 40px;
+	font-family: Helvetica;
+	color: #14171a;
+    font-weight: 700;
+    font-size: 28px;
+}
+.container .d1 span{
+	display: block;
+	margin-right: 25%;
+	height: auto;
+	font-family: Helvetica;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #292f33;
+}
+.container .avatar{
+	display: flex;
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+.container .avatar span img{
+	display: block;
+	width: 70px;
+	height: 70px;
+	border-radius: 50px;
+	margin-right: 20px;
+}
+.container .avatar button{
+	margin-top: 20px;
+	width: 85px;
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(87, 184, 70);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #ffffff;
+    font-family: Helvetica;
+}
+.container .name{
+	display: flex;
+	margin-bottom: 20px;
+}
+.container .name .b1{
+	width: 50%;
+	display: block;
+	font-family: Helvetica;
+	font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+ .container .name .b1 .nametitle{
+	display: block;
+	width: 100%;
+	padding-bottom: 10px;
+ }
+.container .name .b1 .inputname input{
+	border: 2px solid rgb(87, 184, 70);
+	height: 30px;
+	width: 80%;
+}
+ .container .Email{
+ 	display: flex;
+ 	width: 96%;
+ 	margin-top: 35px;
+ }
+.container .Email .b2{
+	width: 50%;
+	display: block;
+}
+.container .Email .b2 span{
+	font-family: Helvetica;
+	font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.container .Email .b2 input{
+	border: 2px solid rgb(87, 184, 70);
+	height: 30px;
+	width: 70%;
+	margin-left: 1.5%;
+	margin-right:2%;
+}
+.container .Email .changeP{
+	width: 50%;
+	padding-left: 4.5%;
+	padding-top: 5px;
+}
+.container .Email a{
+	font-family: Helvetica;
+	font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-decoration: none;
+}
+ .container .Introduce{
+ 	margin-bottom: 20px;
+ }
+.container .Introduce .intro{
+	display: block;
+	width: 100%;
+	padding-top: 30px;
+	font-family: Helvetica;
+	font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.container .Introduce .input input{
+	width: 90%;
+	height: auto;
+	min-height: 100px;
+	margin-top: 10px;
+	border: 2px solid rgb(87, 184, 70);
+}
+.container .confirm{
+	width: 100%;
+	margin-top: 70px;
+	display: flex;
+	margin-bottom: 80px;
+}
+.container .confirm button{
+	height: 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(87, 184, 70);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #ffffff;
+    font-family: Helvetica;
+}
+.container .confirm .bt1{
+	width: 52%;
+	margin-right: 30px;
+}
+.container .confirm .bt2{
+	width: 35%;
+}
+.container .confirm button:hover{
+    background-color: #4cd137;
+}
+.container .confirm button:focus{
+	outline: none;
+}
+.container .Email .changeP a:hover{
+	border-bottom: 1px solid;
+}
+.container .avatar button:hover{
+	background-color: #4cd137;
+}
+.container .avatar button:focus{
+	outline: none;;
+}

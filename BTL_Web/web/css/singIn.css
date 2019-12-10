@@ -1,0 +1,151 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.limited {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+     width: 400px;
+    margin-left: 35%;
+}
+
+.limited .login {
+    margin: 0px;
+    padding: 0px;
+
+    width: 400px;
+}
+
+.limited .login .login-form-validate-form {
+    padding: 0px;
+    margin: 0px;
+    width: 400px;
+}
+
+.limited .login .title {
+
+    padding: 0px;
+    margin: 0px;
+}
+
+.limited .login .title h1 {
+
+    padding: 0px;
+    margin-top: 80px;
+    font-size: 39px;
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    line-height: bold;
+}
+
+.limited .login .avatar {
+    padding: 0px;
+    margin: 0px;
+}
+
+.limited .login .avatar img {
+    border-radius: 50%;
+    margin-top: 45px;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.limited .login .input_user {
+
+    /*
+    transform: translate(176%, 0%);
+    width: 300px;
+*/
+    width: 100%;
+
+    overflow: hidden;
+    border-bottom: 1px solid #4caf50;
+}
+
+.limited .login .input_user .username {
+    width: 400px;
+    font-size: 20px;
+    background: none;
+    padding-bottom: 3px;
+}
+.limited .login .input_user .password {
+    width: 400px;
+    font-size: 20px;
+    background: none;
+    padding-bottom: 3px;
+}
+input {
+    outline: none;
+    border: none;
+    margin-top: 40px;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+button {
+    margin-top: 60px;
+    width: 100%;
+    border: none;
+    height: 45px;
+    font-size: 15px;
+    border-radius: 22.5px;
+    background-color: rgb(87, 184, 70);
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    outline: none;
+}
+
+button:hover{
+    background-color: #4cd137;
+}
+
+ul {
+    margin-top: 120px;
+    margin-bottom: 60px;
+}
+
+li {
+    list-style-type: none;
+}
+
+li a {
+
+    text-decoration: none;
+}
+
+ul li {
+    display: block;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    margin-bottom: 18px;
+    font-weight: bold;
+}
+
+ul li span {
+    color: rgb(147, 148, 152);
+}
+
+ul li a {
+    color: rgb(87, 184, 70);
+}
+.inforLogin{
+    display: block;
+    margin-top: 30px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: -20px;
+    
+}

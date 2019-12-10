@@ -1,0 +1,144 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica;
+}
+
+form{
+    
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+#user_mail{
+    border-bottom: 1px solid #999;
+}
+#pass{
+    margin-top: 40px;
+    border-bottom: 1px solid #999;
+}
+#repass{
+    margin-top: 40px;
+    border-bottom: 1px solid #999;
+    margin-bottom: 25px;
+}
+.main_title{
+    
+    margin: 100px 700px 0px 333px;
+    color: #222222;
+    font-size: 30px;
+}
+
+.form_group{
+    
+    margin: 52px 680px 78px 333px;
+    border: 0px;
+/*    background: #3498db;*/
+      
+}
+
+.form_group ul{
+    
+    margin: 0px;
+    padding: 0px;
+}
+
+.form_group ul #user_name{
+    
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    border-bottom: 1px solid #999;
+}
+.form_group ul #user_name #name{
+    width: 93%;
+    height: 25px;
+}
+.form_group ul #user_mail{
+    
+    margin-top: 40px;
+    margin-bottom: 0px;
+    /*border-bottom: 1px solid #999;*/
+   
+}
+.form_group ul #user_mail #email
+{
+    width: 93%;
+    height: 25px;
+}
+.form_group ul li #password{
+    
+/*    margin-top: 40px;*/
+    border: 0px;
+    /*border-bottom: 1px solid #999;*/
+    width: 93%;
+    height: 25px;
+}
+
+
+.form_group ul li #repassword{
+    
+/*    margin-top: 40px;*/
+    width: 93%;
+    height: 25px;
+    /*border-bottom: 1px solid #999;*/
+}
+
+.form_group ul li #check_box{
+    
+    margin-top: 100px;
+    border-bottom: 1px solid #999;
+
+}
+
+button{
+    margin-top: 45px;
+    background: #27ae60;
+    border: none;
+    padding: 15px 39px;
+    border-radius: 30px;
+    color: #fff;
+}
+button:hover{
+    
+    background: #16a085;
+    color: #fff;
+    
+}
+
+.fa-lock:before {
+    content: "\f023";
+    margin-right: 5px;
+    
+}
+.fa-unlock-alt:before {
+    content: "\f13e";
+    margin-right: 5px;
+}
+.img_group{
+    
+   
+    margin: -480px 0px 78px 820px;
+    padding: 0px;
+}
+
+.back_login{
+    
+    margin-left: 880px;
+    margin-top: -12px;
+}
+
+input{
+    border: none;
+    
+}
+
+input:focus{
+    outline: none;
+}
+
+button:focus{
+    outline: none;
+}
